@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-  margin: 0 auto;
+  margin: 0 ;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -15,14 +15,20 @@ a {
   text-decoration: none;
 }
 
+.site__main{
+  padding: 0px 15px;
+}
+
 /* Header style start */
 
 .site__header {
   background: #ffffff;
-  padding: 48px 0px;
+  padding: 48px 15px;
 }
 
-.container {
+.container{
+  width: 1140px;
+  margin: 0 165px;
 }
 
 .header__wrapper {
@@ -70,3 +76,81 @@ a {
   border-radius: 28px;
 }
 /* Header style end */
+
+
+
+
+
+/* Hero style start */
+.hero__section{
+  background-image: url(/img/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 515px) calc(50% - 100px);
+  padding-top: 30px;
+}
+
+.hero__section-title{
+  width: 565px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: -2px;
+  margin-top: 69px;
+}
+
+.hero__section-subtitle{
+  width: 540px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #9E9AA8;
+  margin-top: 5px;
+}
+
+.hero__section-btn{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #fff;
+  background: #2BD0D0;
+  padding: 12.5px 40px;
+  margin-top: 38px;
+  border-radius: 28px;
+}
+
+.hero__shorter-section{
+  background-image: url(/img/shorter-bg.png);
+  width: 1110px;
+  height: 168px;
+  padding: 52px 64.5px;
+  margin-top: 138px;
+}
+
+.hero__shorter-input{
+  width: 769px;
+  height: 64px;
+  border-radius: 10px;
+  padding: 14px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #34313D;
+  outline: none;
+  margin-right: 18px;
+}
+
+.hero__shorter-btn{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 17px 40.5px;
+  background: #2BD0D0;
+  border-radius: 10px;
+}
+
+/* Hero style end */
